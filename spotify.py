@@ -129,7 +129,7 @@ st.sidebar.image(image3)
 # Background image
 import base64
 
-main_bg = "images/bg.png"
+main_bg = "images/https://www.whiteboardjournal.com/wp-content/uploads/2022/05/Spotify-Highlark-Feature-1280x860.gif"
 main_bg_ext = "png"
 
 side_bg = "images/bg.png"
