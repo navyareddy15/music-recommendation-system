@@ -71,6 +71,9 @@ pickle_out.close()
 pickle_in = open('predict_mrs.pkl', 'rb')
 classifier = pickle.load(pickle_in)
 
+backgroundColor = '2F4F4F'
+secondaryBackGroundColor= '1db954'
+
 st.title('Spotify Recommender')
 st.caption('Music for Mind')
 st.subheader('Song Name:')
