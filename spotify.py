@@ -71,8 +71,8 @@ pickle_out.close()
 pickle_in = open('predict_mrs.pkl', 'rb')
 classifier = pickle.load(pickle_in)
 
-
-st.title('Music Recommendation System')
+st.title('Spotify Recommender')
+st.caption('Music for Mind')
 st.subheader('Song Name:')
 song_name = st.text_input('')
 submit = st.button('Predict')
