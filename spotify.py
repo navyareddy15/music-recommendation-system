@@ -129,7 +129,7 @@ st.sidebar.image(image3)
 # Background image
 import base64
 
-main_bg = "images/bg.png"
+main_bg = "https://github.com/misaaldsouza/music-recommendation-system/blob/main/images/front-end.PNG?raw=true"
 main_bg_ext = "png"
 
 side_bg = "images/bg.png"
