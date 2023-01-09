@@ -139,10 +139,10 @@ st.markdown(
     f"""
     <style>
     .reportview-container {{
-        background: url(data:image/gif/video{main_bg.png};base64,{base64.b64encode(open(main_bg, "rb").read()).decode()})
+        background: url(data:image/gif/video{main_bg_ext};base64,{base64.b64encode(open(main_bg, "rb").read()).decode()})
     }}
    .sidebar .sidebar-content {{
-        background: url(data:image/gif/video{side_bg.png};base64,{base64.b64encode(open(side_bg, "rb").read()).decode()})
+        background: url(data:image/gif/video{side_bg_ext};base64,{base64.b64encode(open(side_bg, "rb").read()).decode()})
     }}
     </style>
     """,
